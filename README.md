@@ -18,19 +18,13 @@ This project aims to create a multi-threaded simulation of ants searching for fo
 ## Arguments File input
 You can customize the following parameters in the source code:
 
-- Number of ants
-- Speed limit for ants
-- Number of initial directions
-- Change direction angle: *Ant turning angle when hitting the wall*
-- Small angle: *Ant turning angle when smelling weak pheromones*
-- Food dwell time *Time between each food spawn*
-- Ant smell distance: *Distance at which ants can smell food*
-- Weak pheromone threshold
-- Strong pheromone threshold
-- Ant appetite: *Portion of food in percent that an ant eats in one second*
-- Run time: *Simulation duration*
-- Number of food pieces spawned in each round
-  
+- NUM_OF_ANTS 
+- SPEED_RANGE 
+- FOOD_TIMER 
+- FOOD_SMELL_DISTANCE 
+- PHEROMONE_SMELL_DISTANCE_THRESHOLD 
+- FOOD_PORTION 
+- SIMULATION_TIMER 
 ---
 ## Languages And Tools:
 
